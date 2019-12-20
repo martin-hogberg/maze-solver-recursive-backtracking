@@ -33,7 +33,9 @@ void printMaze();
 pos  getStart();
 int  rec_backtrack(int x, int y);
 
-/* Initialize the maze */
+/********************************************************/
+/* Initialize the maze                                  */
+/********************************************************/
 char maze[NROWS][NCOLS] = 
 {
 	"#########S##########",
